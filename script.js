@@ -16,11 +16,9 @@ function getButton(number) {
 
     if(sign === '') {
         localNum1 = parseFloat(field.value);
-        console.log(localNum1);
     }
     else {
         localNum2 = parseFloat(field.value);
-        console.log(localNum2);
     }
 }
 
