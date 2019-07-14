@@ -10,7 +10,7 @@ function allReset() {
     sign = '';
 }
 
-// Get button and write in the field (input)
+// Get value of the button and write in the field (input)
 function getButton(number) {
     field.value += number;
 
