@@ -13,26 +13,26 @@
 <body>
     <div class="main-content">
         <div class="container">
-            <input class="enter-field" type="text" placeholder="0" disabled value="12">
-    
-            <button class="btn" id="btn-reset">C</button>
-            <button class="btn" id="btn-plusmn">&plusmn;</button>
-            <button class="btn" id="btn-multiply">&#215;</button>
-            <button class="btn" id="btn-divide">&#247;</button>
-            <button class="btn" id="btn-7">7</button>
-            <button class="btn" id="btn-8">8</button>
-            <button class="btn" id="btn-9">9</button>
-            <button class="btn" id="btn-minus">&#8722;</button>
-            <button class="btn" id="btn-4">4</button>
-            <button class="btn" id="btn-5">5</button>
-            <button class="btn" id="btn-6">6</button>
-            <button class="btn" id="btn-plus">+</button>
-            <button class="btn" id="btn-1">1</button>    
-            <button class="btn" id="btn-2">2</button>
-            <button class="btn" id="btn-3">3</button>
-            <button class="btn" id="btn-equal">=</button>
-            <button class="btn" id="btn-zero">0</button>
-            <button class="btn" id="btn-point">.</button>
+            <input id="enter-field" type="text" placeholder="0">
+
+            <button class="btn" id="btn-reset" onclick="allReset()">C</button>
+            <button class="btn" id="btn-plusmn" onclick="plusMinus()">&plusmn;</button>
+            <button class="btn" id="btn-multiply" onclick="getOperation('*')">&#215;</button>
+            <button class="btn" id="btn-divide" onclick="getOperation('/')">&#247;</button>
+            <button class="btn" id="btn-7" onclick="getButton('7')">7</button>
+            <button class="btn" id="btn-8" onclick="getButton('8')">8</button>
+            <button class="btn" id="btn-9" onclick="getButton('9')">9</button>
+            <button class="btn" id="btn-minus" onclick="getOperation('-')">&#8722;</button>
+            <button class="btn" id="btn-4" onclick="getButton('4')">4</button>
+            <button class="btn" id="btn-5" onclick="getButton('5')">5</button>
+            <button class="btn" id="btn-6" onclick="getButton('6')">6</button>
+            <button class="btn" id="btn-plus" onclick="getOperation('+')">+</button>
+            <button class="btn" id="btn-1" onclick="getButton('1')">1</button>    
+            <button class="btn" id="btn-2" onclick="getButton('2')">2</button>
+            <button class="btn" id="btn-3" onclick="getButton('3')">3</button>
+            <button class="btn" id="btn-equal" onclick="getResult()">=</button>
+            <button class="btn" id="btn-zero" onclick="getButton('0')">0</button>
+            <button class="btn" id="btn-point" onclick="getButton('.')">.</button>
         </div>
 
         <h4 id="by-tymino">created by tymino</h4>

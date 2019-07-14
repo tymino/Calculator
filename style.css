@@ -27,7 +27,7 @@
     color: rgb(195, 210, 211);
     text-shadow: 2px 1px 1px rgb(10, 10, 10);
 }
-.enter-field {
+#enter-field {
     height: 30px;
     text-align: right;
     font-size: 2.5em;
