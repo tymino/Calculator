@@ -1,2 +1,3 @@
 # Calculator
-Simple calculator<br/>(html, css, typescript)
+
+Simple calculator
